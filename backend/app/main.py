@@ -15,12 +15,7 @@ app = FastAPI(
     version="1.0.0"
 )
 
-origins = [
-    "http://localhost:5173",
-    "http://localhost:3000",
-    "https://nimble-figolla-f4485d.netlify.app/",
-    "https://nimble-figolla-f4485d.netlify.app/#"
-]
+origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,
