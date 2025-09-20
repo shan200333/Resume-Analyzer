@@ -7,7 +7,7 @@ from .db import models
 from .db.database import engine
 from .api import resume_routes, user_routes
 
-models.Base.metadata.create_all(bind=engine)
+# models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
     title="Resume Analyzer API",
