@@ -17,7 +17,8 @@ app = FastAPI(
 
 origins = [
     "http://localhost:5173",
-    "http://localhost:3000", 
+    "http://localhost:3000",
+    "https://nimble-figolla-f4485d.netlify.app/",
 ]
 
 app.add_middleware(
