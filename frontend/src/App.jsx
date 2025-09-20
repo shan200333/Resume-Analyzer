@@ -18,7 +18,7 @@ const styles = {
   logoutButton: { position: 'absolute', top: '20px', right: '20px', padding: '8px 16px', backgroundColor: '#c53030', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer' },
 };
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
 
 // Create an API instance that will automatically include the token in every request
 const api = axios.create({ baseURL: API_URL });
