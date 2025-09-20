@@ -1,0 +1,25 @@
+# --- Python / Backend ---
+# Virtual environment folder
+venv/
+.venv/
+
+# Environment variables file
+.env
+
+# --- Node / Frontend ---
+# Dependencies folder
+node_modules/
+
+# Lock files (covers both package-lock.json and others)
+package-lock.json
+package.json
+yarn.lock
+
+# --- General ---
+# IDE / Editor folders
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
