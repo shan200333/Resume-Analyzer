@@ -11,8 +11,6 @@ venv/
 node_modules/
 
 # Lock files (covers both package-lock.json and others)
-package-lock.json
-package.json
 yarn.lock
 
 # --- General ---
